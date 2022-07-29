@@ -1,0 +1,125 @@
+*{
+    background-color:  hsl(30, 38%, 92%);
+}
+body{
+    margin: 0%;
+}
+div{
+    display:table-cell;
+    vertical-align: middle;
+}
+.ter{
+    display: table;
+    margin: auto;
+    padding-top: 7%;
+    border-radius: 20%;
+}
+.imag{
+    vertical-align: middle;
+    display:flex;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.p1{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif; font-size: 12px;
+}
+.p2{
+    font-size: 20px; 
+    color:hsl(158, 36%, 37%); 
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+del{
+    font-size: 10px ;
+    color:hsl(228, 12%, 48%); 
+    padding-left: 25px;
+    margin-top: 3px; 
+}
+
+.ret{
+    vertical-align: middle;
+    display: table-cell;
+    border: solid 3px white;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    padding:10px;
+}
+header{
+    background-color: white;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+
+}
+main{
+    background-color: white;
+}
+h1{
+    background-color: white;
+    font-family: 'Fraunces', serif;
+}
+p{
+    background-color: white;
+
+   
+}
+del{
+    text-align: center;
+    background-color: white;
+    color: hsl(228, 12%, 48%);
+}
+button{
+    font-family: 'Fraunces', serif;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    height: 30px;
+    width: 90%;
+    margin:5px;
+    text-align: center;
+    align-self: center;
+    padding-bottom: 10%;
+    border-radius: 6%;
+    background-color:  hsl(158, 36%, 37%);
+    border: solid 2px hsl(158, 36%, 37%);
+
+}
+.imag2{
+    background-color: hsl(158, 36%, 37%);
+    padding-right: 4%; 
+    padding-top: 3%;
+}
+@media(max-width:425px) {
+    .ter{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        margin-right: 0%;
+        padding: 0%;
+        
+    }
+    .imag{
+        width: 91vw;
+        margin: 11px;
+        border-radius: 5%;
+        margin-bottom: 0%;
+        margin-left: 12px;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    .ret{
+        width: 85vw;
+        height: auto;
+        margin: 12px;
+        border-radius: 5%;
+        margin-top: 0%;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+
+    }
+    
+}
